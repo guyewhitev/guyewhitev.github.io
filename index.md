@@ -4,7 +4,7 @@ layout: default
 
 # Welcome to My Site
 
-I am Guy. I am in FTC Robotics and I am learning to code.
+Welcome to my website! I'm Guy. I do FIRST Robotics and enjoy coding. 
 
 ## About Me
 

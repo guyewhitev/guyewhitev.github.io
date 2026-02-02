@@ -21,7 +21,7 @@
 title: Guy E White V
 email: guy@guyewhitev.com
 description: >- # this means to ignore newlines until "baseurl:"
-  I am Guy. I am in FTC Robotics and I am learning to code.
+  Welcome to my website! I'm Guy. I do FIRST Robotics and enjoy coding. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
