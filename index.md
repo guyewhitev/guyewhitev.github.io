@@ -4,8 +4,11 @@ layout: default
 
 # Welcome to My Site
 
-Welcome to my website! I'm Guy. I do FIRST Robotics and enjoy coding. 
+Welcome to my website! This is a website with tools designed to help with programming. 
 
-## About Me
+## Tools
 
-Check out my [GitHub](https://github.com/guyewhitev) for my projects!
+Check out my "projects" page for tools! 
+
+### These are some of the most frequently used tools: 
+
