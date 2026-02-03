@@ -21,14 +21,15 @@
 title: Guy E White V
 email: guy@guyewhitev.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Welcome to my website! I'm Guy. I do FIRST Robotics and enjoy coding. 
+  Welcome to my website! This is a website with tools to help with programming.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username:  guyewhitev
-logo: /assets/profile.jpg
+logo: /assets/newprofile.jpg
 # Build settings
-theme: jekyll-theme-minimal
+# theme: jekyll-theme-minimal
+remote_theme: mmistakes/minimal-mistakes
 plugins:
   - jekyll-feed
 
