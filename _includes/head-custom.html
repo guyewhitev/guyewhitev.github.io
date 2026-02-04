@@ -1,6 +1,11 @@
 <style>
-  /* Only add padding to main content areas, not the header */
-  .container:not(.navbar) {
+  /* Reset any header/nav overrides */
+  header, nav, .navbar, .site-header, .site-nav {
+    all: revert !important;
+  }
+  
+  /* Only add padding to main content areas */
+  main, .wrapper {
     padding-left: 40px !important;
     padding-right: 40px !important;
   }
@@ -9,22 +14,13 @@
     padding: 30px 40px !important;
   }
   
-  article:not(.navbar) {
-    padding: 30px 40px !important;
-  }
-  
-  /* Don't mess with header/navigation */
-  header, nav, .navbar {
-    padding: inherit !important;
-  }
-  
   @media (max-width: 768px) {
-    .container:not(.navbar) {
+    main, .wrapper {
       padding-left: 20px !important;
       padding-right: 20px !important;
     }
     
-    .post-content, .page-content, article:not(.navbar) {
+    .post-content, .page-content {
       padding: 20px !important;
     }
   }
