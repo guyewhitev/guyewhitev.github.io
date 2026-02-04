@@ -1,0 +1,17 @@
+.container {
+  max-width: 900px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin: 0 auto;
+}
+
+.post-content, .page-content {
+  padding: 30px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
