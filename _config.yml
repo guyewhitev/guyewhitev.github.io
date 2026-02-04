@@ -22,7 +22,7 @@ email: guy@guyewhitev.com
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome to my website! This is a website with tools to help with programming.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://guyewhitev.github.io" # the base hostname & protocol for your site
+url: "https://guyewhitev.coding.website" # the base hostname & protocol for your site
 github_username: guyewhitev
 
 # Build settings
