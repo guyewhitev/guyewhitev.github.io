@@ -24,16 +24,6 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://guyewhitev.coding.website" # the base hostname & protocol for your site
 github_username: guyewhitev
-
-# Build settings
-remote_theme: sylhare/Type-on-Strap
-# Type on Strap settings
-header_text: Guy E White V
-header_text_color: '#FFF'
-
-author:
-  name: Guy E White V
-  
 plugins:
   - jekyll-feed
 
