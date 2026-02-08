@@ -1,15 +1,11 @@
 <style>
-  /* Reset any header/nav overrides */
-  header, nav, .navbar, .site-header, .site-nav {
-    all: revert !important;
-  }
-  
-  /* Add padding to header and title area */
-  header, .site-header {
+  /* Force padding on entire header */
+  header * {
     padding-left: 40px !important;
   }
   
-  .site-title, h1, .header-text, .navbar-brand {
+  /* Navigation items */
+  nav, nav * {
     padding-left: 40px !important;
   }
   
@@ -24,11 +20,7 @@
   }
   
   @media (max-width: 768px) {
-    header, .site-header {
-      padding-left: 20px !important;
-    }
-    
-    .site-title, h1, .header-text, .navbar-brand {
+    header *, nav, nav * {
       padding-left: 20px !important;
     }
     
