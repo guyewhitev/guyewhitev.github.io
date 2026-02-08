@@ -22,8 +22,20 @@ email: guy@guyewhitev.com
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome to my website! This is a website with tools to help with programming.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://guyewhitev.coding.website" # the base hostname & protocol for your site
+url: "https://guyewhitev.github.io" # the base hostname & protocol for your site
 github_username: guyewhitev
+# Build settings
+remote_theme: sylhare/Type-on-Strap
+
+# Author info
+author:
+  name: Guy E White V
+  avatar: /assets/newprofile.jpg
+  bio: Creator of website with coding tools
+  email: guy@guyewhitev.com
+  github: guyewhitev
+
+
 plugins:
   - jekyll-feed
 
