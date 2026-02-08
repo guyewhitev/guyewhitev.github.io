@@ -1,0 +1,16 @@
+---
+---
+
+@import "type-on-strap";
+
+body {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+@media (max-width: 768px) {
+  body {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
