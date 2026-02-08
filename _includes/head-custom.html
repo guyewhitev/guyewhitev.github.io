@@ -4,8 +4,12 @@
     all: revert !important;
   }
   
-  /* Add padding to site title */
-  .site-title, h1.site-title {
+  /* Add padding to header and title area */
+  header, .site-header {
+    padding-left: 40px !important;
+  }
+  
+  .site-title, h1, .header-text, .navbar-brand {
     padding-left: 40px !important;
   }
   
@@ -20,7 +24,11 @@
   }
   
   @media (max-width: 768px) {
-    .site-title, h1.site-title {
+    header, .site-header {
+      padding-left: 20px !important;
+    }
+    
+    .site-title, h1, .header-text, .navbar-brand {
       padding-left: 20px !important;
     }
     
