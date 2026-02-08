@@ -4,6 +4,11 @@
     all: revert !important;
   }
   
+  /* Add padding to site title */
+  .site-title, h1.site-title {
+    padding-left: 40px !important;
+  }
+  
   /* Only add padding to main content areas */
   main, .wrapper {
     padding-left: 40px !important;
@@ -15,6 +20,10 @@
   }
   
   @media (max-width: 768px) {
+    .site-title, h1.site-title {
+      padding-left: 20px !important;
+    }
+    
     main, .wrapper {
       padding-left: 20px !important;
       padding-right: 20px !important;
