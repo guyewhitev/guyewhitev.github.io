@@ -2,13 +2,14 @@
 layout: default
 ---
 
-# Welcome to My Site
+# Promote Awareness
 
-Welcome to my website! This is a website with tools designed to help with programming. 
 
-## Tools
-
-Check out my "projects" page for tools! 
-
-### These are some of the most frequently used tools: 
-
+ 
+     
+ 
+##### Promoting Global Awareness Around the World
+        
+  Welcome to Promote Awareness, the idea is to promote awareness around the globe on topics that are not very well known, and how you can make a difference in the world.
+    
+  

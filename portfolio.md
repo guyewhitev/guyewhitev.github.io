@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Portfolio
-permalink: /portfolio/
+title: Monthly Issue
+permalink: /Monthly Issue/
 ---
 
-# My Projects
+# This Month's Issue
 
 Coming soon!
