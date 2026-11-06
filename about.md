@@ -6,4 +6,4 @@ permalink: /about/
 
 # About the website
 
-Welcome to my website! This is a website with tools to help with programming.
+The aim of this website is to promote awareness on current world problems, along with solutions that anyone can use.

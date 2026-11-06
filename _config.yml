@@ -31,7 +31,7 @@ remote_theme: sylhare/Type-on-Strap
 author:
   name: Guy E White V
   avatar: /assets/newprofile.jpg
-  bio: Creator of website with coding tools
+  bio: Creator of website promoting awareness of current world problems
   email: guy@guyewhitev.com
   github: guyewhitev
 
@@ -42,7 +42,7 @@ plugins:
 # Navigation
 header_pages:
   - about.md
-  - portfolio.md
+  - monthlyIssue.md
   
 # Exclude from processing.
 # The following items will not be processed, by default.
