@@ -1,7 +1,7 @@
 ---
 layout: search
 title: Search
-icon: "search"
+icon: "fa-search"
 permalink: /search/
 ---
 {% include background.html %}
