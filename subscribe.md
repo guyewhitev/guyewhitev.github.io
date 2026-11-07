@@ -3,6 +3,7 @@ layout: page
 title: Subscribe
 permalink: /subscribe/
 ---
+{% include background.html %}
 
 <div class="subscribe-box">
   <h3>Get the Monthly Issue</h3>
