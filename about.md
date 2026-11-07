@@ -3,6 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
+{% include background.html %}
 
 # About the website
 
