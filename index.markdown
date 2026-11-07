@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Home
-permalink: /homepage/
+permalink: /
 ---
 # Promoting Global Awareness Around the World
         
