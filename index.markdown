@@ -1,5 +1,6 @@
 ---
 layout: page
+title: home
 permalink: /
 ---
 # Promoting Global Awareness Around the World
