@@ -52,7 +52,7 @@ Just having a community group or a larger group to share your thoughts on politi
 
 ###### Sourced From:
 
-New York Times and Syracuse University Today
+##### New York Times and Syracuse University Today
 
 
 
