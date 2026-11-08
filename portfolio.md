@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Monthly Issue
-permalink: /Monthly Issue/
+permalink: /monthly-issue/
 ---
 {% include background.html %}
 
