@@ -5,11 +5,12 @@ permalink: /monthly-issue/
 ---
 {% include background.html %}
 
-# This Month's Issue
+# This Month’s Issue
 
-<ul>
 {% for post in site.posts %}
-  <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a> ({{ post.date | date: "%B %Y" }})</li>
+<div class="issue-card">
+  <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+  <p class="issue-date">{{ post.date | date: "%B %Y" }}</p>
+  <p>{{ post.content | strip_html | truncatewords: 30 }}</p>
+</div>
 {% endfor %}
-</ul>
-
