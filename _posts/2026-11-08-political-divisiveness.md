@@ -34,15 +34,15 @@ With that being said, I think that there could be a better effort of trying to r
 
 Just having a community group or a larger group to share your thoughts on political divisiveness, and doing activities or guided conversations can help people learn to work together with people that have opposed beliefs or opinions. This can help create a better understanding and environment in the world that will improve the general “mood” caused by extreme political divisiveness. 
 
-#### So, you can
+### So, you can
 
-###### 1: Don't believe everything you read on the internet. 
+### 1: Don't believe everything you read on the internet. 
 
-###### 2: Keep an open mindset and listen to someone else's point of view.
+### 2: Keep an open mindset and listen to someone else's point of view.
 
-###### 3: Remember that we all have things in common with each other.
+### 3: Remember that we all have things in common with each other.
 
-###### 4: Occasionally take a break from social media if needed
+### 4: Occasionally take a break from social media if needed
 
 
 
@@ -53,6 +53,8 @@ Just having a community group or a larger group to share your thoughts on politi
 ###### Sourced From:
 
 New York Times and Syracuse University Today
+
+
 
 
 
