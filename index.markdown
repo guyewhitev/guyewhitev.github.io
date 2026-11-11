@@ -10,7 +10,7 @@ permalink: /
   header#main { display: none; }
 </style>
 
-# Promoting Global Awareness Around the World
+# Promoting Global Awareness and Solutions
         
 ![Candle in hands](assets/home.jpg)
 
