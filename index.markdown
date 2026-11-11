@@ -29,7 +29,7 @@ The aim of this website is to promote knowledge and awareness of current global 
 
 ### Making a change starts with you
 
-In order to change the world, look at yourself and ask: "What can I do?" The answer is that even the smallest action can cause the biggest changes. 
+In order to change the world, look at yourself and ask: "What can I do?" The answer is that even the smallest action can cause the biggest changes.  
 
 ### About the creator
 
