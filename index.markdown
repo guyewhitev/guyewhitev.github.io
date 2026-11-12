@@ -10,6 +10,13 @@ permalink: /
   header#main { display: none; }
 </style>
       
+<div style="position: relative; display: block; width: 100%;">
+  <img src="{{ '/assets/images/your-image.jpg' | relative_url }}" alt="Image description" style="display: block; width: 100%; max-width: 100%; height: auto;">
+  
+  <div style="position: absolute; top: 20px; left: 20px; right: 20px; color: #ffffff; font-size: clamp(1.2rem, 4vw, 2.5rem); font-weight: bold; line-height: 1.2; text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);">
+    Your Text Here
+  </div>
+</div>
 
 <div class="image-overlay-container">
   <img src="{{ '/assets/home.jpg' | relative_url }}" alt="Candle in hands">
