@@ -9,8 +9,6 @@ permalink: /
 <style>
   header#main { display: none; }
 </style>
-
-# Promoting Global Awareness and Solutions
       
 
 <div class="image-overlay-container">
