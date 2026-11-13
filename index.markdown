@@ -11,7 +11,7 @@ permalink: /
 </style>      
 
 
-<div class="image_overlay_container">
+<div class="image-overlay-wrapper">
   <img src="/assets/home.jpg" alt="Lit Candle in hands">
   <div class="image-overlay-text">
     MAKING A CHANGE<br>
