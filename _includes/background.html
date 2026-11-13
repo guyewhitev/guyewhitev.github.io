@@ -74,13 +74,14 @@
 
 .image-overlay-text {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); /* Centers text over the image */
-  width: 85%; /* Prevents text from touching or overflowing left/right edges */
-  text-align: center;
+  top: 20px;         /* Distance from the top edge */
+  left: 20px;        /* Distance from the left edge */
+  max-width: 80%;    /* Keeps text from overflowing the right edge */
+  text-align: left;  /* Aligns both lines cleanly on the left */
+  font-size: 2rem;   /* Makes text larger (adjust as needed) */
+  font-weight: bold;
+  line-height: 1.2;  /* Controls vertical spacing between the two lines */
   color: white;
-  word-wrap: break-word;
 }
 
 </style>
