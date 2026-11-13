@@ -61,33 +61,31 @@
     margin-top: -10px;
   }
 .image-overlay-wrapper {
-  position: relative;
-  display: block;
-  width: 100%;
-  overflow: hidden; /* Hard-stops anything from spilling outside the image edges */
+  display: inline-grid;          /* Shrinks the box to match the exact image size */
+  grid-template-areas: "stack";  /* Creates a single shared space */
+  max-width: 100%;
 }
 
 .image-overlay-wrapper img {
+  grid-area: stack;              /* Places image in the cell */
   display: block;
-  width: 100%;
+  max-width: 100%;
   height: auto;
-  margin: 0;
+  margin: 0 !important;
 }
 
 .image-overlay-text {
-  position: absolute;
-  top: 16px;
-  left: 16px;
-  right: 16px;            /* Locks the right boundary inside the box */
-  margin: 0 !important;   /* Overrides Jekyll theme negative margins */
-  padding: 0;
-  box-sizing: border-box;
-  text-align: left;
-  font-size: clamp(1.2rem, 4vw, 2.2rem); /* Scales text so it fits smaller boxes */
+  grid-area: stack;              /* Places text in the exact same cell */
+  align-self: start;             /* Pins to top */
+  justify-self: start;           /* Pins to left */
+  margin: 16px !important;       /* Adds clean padding from the top-left corner */
+  max-width: calc(100% - 32px);  /* Stops text from crossing the right edge */
+  font-size: 1.75rem;            /* Adjust size as needed */
   font-weight: bold;
   line-height: 1.2;
-  white-space: normal;    /* Forces text to wrap instead of staying on one wide line */
-  overflow-wrap: break-word;
+  text-align: left;
   color: white;
+  z-index: 2;
 }
+
 </style>
