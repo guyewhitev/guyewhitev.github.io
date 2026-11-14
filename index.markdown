@@ -14,8 +14,8 @@ permalink: /
 <div class="image-overlay-wrapper">
   <img src="/assets/home.jpg" alt="Lit Candle in hands">
   <div class="image-overlay-text">
-    MAKING 
-    A CHANGE<br>
+    MAKING <br>
+    A CHANGE
     STARTS WITH YOU
   </div>
 </div>
