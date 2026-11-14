@@ -31,11 +31,4 @@ The aim of this website is to promote knowledge and awareness of current global 
   <p><a href="/subscribe/">Subscribe</a> to get next month's issue by email.</p>
 </div>
 
-### Making a change starts with you
 
-In order to change the world, look at yourself and ask: "What can I do?" The answer is that even the smallest action can cause the biggest changes.  
-
-### About the creator
-
-I am currently a teenager, living in Oregon, and I am still trying to understand the world we live in. 
-I remember feel in the past that I felt unqualified or too young to make any change, so I didn't. Now, I realize that anyone can make some kind of change, even if it is small.
