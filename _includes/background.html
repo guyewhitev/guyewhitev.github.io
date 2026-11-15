@@ -61,42 +61,37 @@
     color: #6B6256;
     margin-top: -10px;
   }
+.image-overlay-wrapper {
+  display: grid !important;
+  grid-template-areas: "stack" !important;
+  width: 100vw !important;
+  
+  /* Change 100vh to your preferred height (e.g., 60vh = 60% of screen height, or 500px) */
+  height: 60vh !important; 
+  min-height: 350px !important; /* Prevents it from getting too squished on short screens */
 
-  .image-overlay-wrapper {
-    display: grid;
-    grid-template-areas: "stack";
-    width: 100vw;
-    height: 100vh;
-    position: relative;
-    left: 50%;
-    right: 50%;
-    margin-left: -50vw;
-    margin-right: -50vw;
-  }
+  position: relative !important;
+  left: 50% !important;
+  right: 50% !important;
+  margin-left: -50vw !important;
+  margin-right: -50vw !important;
+  margin-bottom: 40px !important;
+}
 
-  .image-overlay-wrapper img {
-    grid-area: stack;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-    display: block;
-    margin: 0 !important;
-  }
+.image-overlay-text {
+  grid-area: stack !important;
+  align-self: center !important; /* Centers text vertically so it doesn't overflow a shorter banner */
+  justify-self: start !important;
+  margin: 0 80px !important;     /* Replaces the tall 125px top margin */
+  max-width: calc(100% - 160px) !important;
+  font-size: 4rem !important;    /* Slightly smaller text to fit a shorter banner cleanly */
+  font-weight: bold !important;
+  line-height: 1.2 !important;
+  text-align: left !important;
+  color: rgba(127, 117, 117, 0.98) !important;
+  z-index: 2 !important;
+}
 
-  .image-overlay-text {
-    grid-area: stack;
-    align-self: start;
-    justify-self: start;
-    margin: 125px !important;
-    max-width: calc(100% - 250px);
-    font-size: 5.25rem;
-    font-weight: bold;
-    line-height: 1.2;
-    text-align: left;
-    color: rgba(127, 117, 117, 0.98);
-    z-index: 2;
-  }
 
   @media (max-width: 768px) {
     .image-overlay-text {
