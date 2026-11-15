@@ -1,6 +1,7 @@
 <style>
   body {
     background-color: #E3DACA !important;
+    overflow-x: hidden; /* Prevents horizontal scrollbar caused by 100vw */
   }
 
   .subscribe-box {
@@ -27,7 +28,7 @@
     color: #FFFFFF !important;
   }
 
-    .issue-card {
+  .issue-card {
     background-color: #FAF6EE;
     border: 1px solid #CFC3AD;
     border-radius: 12px;
@@ -54,28 +55,18 @@
     font-size: 0.9em;
   }
 
-.photo-credit {
+  .photo-credit {
     text-align: center;
     font-size: 0.85em;
     color: #6B6256;
     margin-top: -10px;
   }
-  body {
-    background-color: #E3DACA !important;
-    overflow-x: hidden; /* Prevents horizontal scrollbar caused by 100vw */
-  }
-
-  /* ... keep your .subscribe-box, .issue-card, and .photo-credit styles here ... */
 
   .image-overlay-wrapper {
     display: grid;
     grid-template-areas: "stack";
-    
-    /* Full-screen dimensions */
     width: 100vw;
     height: 100vh;
-    
-    /* Breaks out of centered Jekyll theme containers to touch screen edges */
     position: relative;
     left: 50%;
     right: 50%;
@@ -87,7 +78,7 @@
     grid-area: stack;
     width: 100%;
     height: 100%;
-    object-fit: cover;            /* Crops the image cleanly to fill the screen without stretching */
+    object-fit: cover;
     object-position: center;
     display: block;
     margin: 0 !important;
@@ -98,7 +89,7 @@
     align-self: start;
     justify-self: start;
     margin: 125px !important;
-    max-width: calc(100% - 250px); /* Prevents text overflow accounting for 125px margins */
+    max-width: calc(100% - 250px);
     font-size: 5.25rem;
     font-weight: bold;
     line-height: 1.2;
@@ -107,7 +98,6 @@
     z-index: 2;
   }
 
-  /* Responsive adjustment so large text doesn't break on mobile screens */
   @media (max-width: 768px) {
     .image-overlay-text {
       font-size: 2.75rem;
@@ -115,7 +105,4 @@
       max-width: calc(100% - 80px);
     }
   }
-</style>
-
-
 </style>
