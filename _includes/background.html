@@ -60,32 +60,62 @@
     color: #6B6256;
     margin-top: -10px;
   }
-.image-overlay-wrapper {
-  display: inline-grid;          /* Shrinks the box to match the exact image size */
-  grid-template-areas: "stack";  /* Creates a single shared space */
-  max-width: 100%;
-}
+  body {
+    background-color: #E3DACA !important;
+    overflow-x: hidden; /* Prevents horizontal scrollbar caused by 100vw */
+  }
 
-.image-overlay-wrapper img {
-  grid-area: stack;              /* Places image in the cell */
-  display: block;
-  max-width: 100%;
-  height: auto;
-  margin: 0 !important;
-}
+  /* ... keep your .subscribe-box, .issue-card, and .photo-credit styles here ... */
 
-.image-overlay-text {
-  grid-area: stack;              /* Places text in the exact same cell */
-  align-self: start;             /* Pins to top */
-  justify-self: start;           /* Pins to left */
-  margin: 125px !important;       /* Adds clean padding from the top-left corner */
-  max-width: calc(100% - 32px);  /* Stops text from crossing the right edge */
-  font-size: 5.25rem;            /* Adjust size as needed */
-  font-weight: bold;
-  line-height: 1.2;
-  text-align: left;
-  color: rgba(127, 117, 117, 0.98);
-  z-index: 2;
-}
+  .image-overlay-wrapper {
+    display: grid;
+    grid-template-areas: "stack";
+    
+    /* Full-screen dimensions */
+    width: 100vw;
+    height: 100vh;
+    
+    /* Breaks out of centered Jekyll theme containers to touch screen edges */
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+  }
+
+  .image-overlay-wrapper img {
+    grid-area: stack;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;            /* Crops the image cleanly to fill the screen without stretching */
+    object-position: center;
+    display: block;
+    margin: 0 !important;
+  }
+
+  .image-overlay-text {
+    grid-area: stack;
+    align-self: start;
+    justify-self: start;
+    margin: 125px !important;
+    max-width: calc(100% - 250px); /* Prevents text overflow accounting for 125px margins */
+    font-size: 5.25rem;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left;
+    color: rgba(127, 117, 117, 0.98);
+    z-index: 2;
+  }
+
+  /* Responsive adjustment so large text doesn't break on mobile screens */
+  @media (max-width: 768px) {
+    .image-overlay-text {
+      font-size: 2.75rem;
+      margin: 40px !important;
+      max-width: calc(100% - 80px);
+    }
+  }
+</style>
+
 
 </style>
