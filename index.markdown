@@ -2,6 +2,7 @@
 layout: page
 title: Home
 permalink: /
+banner_image: /assets/home.jpg
 ---
 
 {% include background.html %}
